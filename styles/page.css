@@ -6,6 +6,10 @@
     font-weight: <weight>;
     font-style: normal;
   }
+  .spacing{
+    margin: 0 160px 0;
+  }
+
   a:hover{
     background-color: lightgreen;
   }
@@ -16,8 +20,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 24px 160px 24px 160px;
-    width: 1600px;
-    height: 100px;
+    width: 1280px;
+    height: 560px;
 }
 .nav-title{
     color: rgb(14, 14, 14);
@@ -86,7 +90,7 @@ a{
 }
 /* pillars styles */
 .pillars{
-    margin: 0 160px 0;
+    /* margin: 0 160px 0; */
 }
 .section-title{
     color: rgb(14, 14, 14);
@@ -100,8 +104,65 @@ a{
 }
 .pillar{
     padding: 30px;
-    border-radius: 5px;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
     background: rgb(255, 255, 255);
 
+}
+/* vision styles */
+.visions{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    margin-top: 80px;
+}
+.vision-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+}
+.vision-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+.vission-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 24;
+    padding: 0px;
+    margin-top: 32px;
+
+}
+.vission-container .vission-1{
+    padding: 32px;
+    margin: 0px 24px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+}
+.vission-container .vission-2{
+    padding: 32px;
+    margin: 0px 24px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
+.vission-container .vission-3{
+    padding: 32px;
+    margin: 0px 24px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
 }
