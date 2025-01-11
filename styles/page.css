@@ -435,3 +435,25 @@ letter-spacing: 0%;
 text-align: center;
 padding-top:  20px;
 }
+/* footer styles */
+.footer-head{
+    background: rgb(255, 255, 255);
+width: 1600px;
+height: 226px;
+margin-top: 80px;
+}
+.foot-title{
+    color: rgb(14, 14, 14);
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+text-align: center;
+}
+.foot-btn{
+    text-align: center;
+    margin-top: 80px;
+    padding: 15px;
+
+}
