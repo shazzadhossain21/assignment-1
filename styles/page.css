@@ -1,0 +1,107 @@
+/* shared styles */
+
+.work-sans-normal {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  a:hover{
+    background-color: lightgreen;
+  }
+
+/* header styles */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 160px 24px 160px;
+    width: 1600px;
+    height: 100px;
+}
+.nav-title{
+    color: rgb(14, 14, 14);
+
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.nav-btn{
+        color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    padding: 15px 30px 15px 30px;
+    background-color: white;
+    
+}
+a{
+    text-decoration: none;
+}
+/* banner styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64;
+    padding: 80px 100px 80px 100px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    margin: 19px 160px 160px 80px;
+
+}
+.banner-header{
+    font-size: 24px;
+    padding: 0px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+    color: #0E0E0E80;
+}
+.banner-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: rgb(14, 14, 14);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    
+}
+.banner-btn{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    padding: 17px 34px 17px 34px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    
+}
+/* pillars styles */
+.pillars{
+    margin: 0 160px 0;
+}
+.section-title{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.pillars-container{
+    display: flex;
+    gap: 24px;
+}
+.pillar{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+
+}
